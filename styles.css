@@ -7,12 +7,47 @@ body {
     margin: 0;
 }
 
+.header-center {
+    text-transform: uppercase;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .page-header {
+    text-decoration: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    height: 8%;
+}
+
+.page-header a {
+    text-decoration: none;
+}
+
+.page-header img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 1px rgb(73, 69, 69);
+    margin: 0.5rem;
+}
+
+.header-center a {
+    margin: 3rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    size: 1rem;
+}
+
+.header-center a:hover, a:focus, a:active {
+    text-decoration: none;
+    size: 2rem;
+    color: inherit;
 }
 
 .header-left {
@@ -30,6 +65,7 @@ body {
 
 .header-right {
     display: flex;
-    align-items: right;
-    width: 20%;
+    align-items: center;
+    justify-content: space-between;
 }
+
