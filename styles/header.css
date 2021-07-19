@@ -1,19 +1,5 @@
-body {
-    font-family: arial, helvetica, sans-serif;
-    font-size: 10pt;
-    color: #000000;
-    background: #ffffff;
-    padding: 0;
-    margin: 0;
-}
 
-.header-center {
-    text-transform: uppercase;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
 
 .page-header {
     text-decoration: none;
@@ -22,10 +8,13 @@ body {
     align-items: center;
     flex-direction: row;
     height: 8%;
+    background-color: rgb(186, 186, 186);
+    margin-bottom: 2rem;
 }
 
 .page-header a {
     text-decoration: none;
+    color: rgb(43, 28, 28);
 }
 
 .page-header img {
@@ -48,17 +37,21 @@ body {
     text-decoration: none;
     size: 2rem;
     color: inherit;
+    background-color: #EFE5DE;
 }
 
 .header-left {
     display: flex;
     align-items: left;
-    width: 20%;
+    width: 5%;
     padding-left: 2rem;
 }
 
 .header-center {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;
     align-items: center;
     width: 60%;
 }
@@ -68,4 +61,3 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-

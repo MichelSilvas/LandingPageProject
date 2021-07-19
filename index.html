@@ -1,6 +1,7 @@
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
     <title>Landing Page</title>
     <div class="page-header">
       <div class="header-left">
@@ -13,8 +14,9 @@
       </div>
       <div class="header-center">
         <a href="#home">Início</a>
-        <a href="#home">Promoções</a>
-        <a href="#home">Contato</a>
+        <a href="#loja">Nossa loja</a>
+        <a href="#promos">Promoções</a>
+        <a href="#Contato">Contato</a>
       </div>
       <div class="header-right">
         <div>
@@ -40,5 +42,45 @@
       </div>
     </div>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="row-1">
+        <div class="row-1-col-1">
+          <div class="divulga-promo">
+            <img src="./assets/cafe.jpg" />
+            <div class="divulga-promo-texto">
+              <h1>Promoção imperdível para programadores!</h1>
+              <p>
+                Na assinatura do seu 'café em casa todo dia, você ganha o dobro
+                de café no primeiro mês*.
+              </p>
+              <p class="regras">
+                * Promoção válida apenas para primeira assinatura.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row-1-col-2">
+          <div class="formulario">
+            <div>
+              <h1>Informações</h1>
+            </div>
+            <input type="text" placeholder="Nome" />
+            <input type="email" placeholder="E-mail" />
+            <div class="termos-de-aceite">
+              <input id="aceite" type="checkbox" />
+              <p class="termo-mais-que-justo">
+                Concordo em divulgar meus dados à todas as empresas parceiras,
+                assim como as parceiras das parceiras, e as parceiras das
+                parceiras das parceiras.
+              </p>
+            </div>
+            <button type="submit" class="botao-submit">
+              Quero receber mais informações
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
