@@ -2,6 +2,7 @@
   <head>
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./styles/header.css" />
+    <script type="text/javascript" src="./scripts/landingPage.js"></script>
     <title>Landing Page</title>
     <div class="page-header">
       <div class="header-left">
@@ -51,8 +52,8 @@
             <div class="divulga-promo-texto">
               <h1>Promoção imperdível para programadores!</h1>
               <p>
-                Na assinatura do seu 'café em casa todo dia, você ganha o dobro
-                de café no primeiro mês*.
+                Na assinatura do pacote 'café em casa todo dia', você ganha o
+                dobro de café no primeiro mês*.
               </p>
               <p class="regras">
                 * Promoção válida apenas para primeira assinatura.
@@ -65,8 +66,8 @@
             <div>
               <h1>Informações</h1>
             </div>
-            <input type="text" placeholder="Nome" />
-            <input type="email" placeholder="E-mail" />
+            <input type="text" placeholder="Nome" id="nome" />
+            <input type="email" placeholder="E-mail" id="email" />
             <div class="termos-de-aceite">
               <input id="aceite" type="checkbox" />
               <p class="termo-mais-que-justo">
@@ -75,7 +76,11 @@
                 parceiras das parceiras.
               </p>
             </div>
-            <button type="submit" class="botao-submit">
+            <button
+              type="submit"
+              class="botao-submit"
+              onclick="cadastrarDados()"
+            >
               Quero receber mais informações
             </button>
           </div>
@@ -83,4 +88,5 @@
       </div>
     </div>
   </body>
+  <footer></footer>
 </html>
