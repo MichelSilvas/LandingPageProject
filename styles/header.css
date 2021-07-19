@@ -15,8 +15,6 @@
 .page-header a {
     text-decoration: none;
     color: rgb(43, 28, 28);
-    border: solid 5px #815B40;
-    border-style: double;
 }
 
 .page-header img {
@@ -34,6 +32,8 @@
     padding: 0.5rem;
     border-radius: 2rem;
     size: 1rem;
+    border: solid 5px #815B40;
+    border-style: double;
 }
 
 .header-center a:hover, a:focus, a:active {
